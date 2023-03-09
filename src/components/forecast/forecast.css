@@ -3,12 +3,14 @@
     justify-content: center;
     font-size: 30px;
     font-weight: 700;
-    color: #333333;
+    color: #525252;
     margin: 3rem 0 1rem;
 }
 
 .dailyItem {
-    background-color: #333;
+    background: #525252;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     border-radius: 15px;
     height: 40px;
