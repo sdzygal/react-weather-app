@@ -1,5 +1,4 @@
 import "./curentWeather.css";
-import Sunny from "../../assets/icons/01d.png";
 
 
 const currentWeather = ({ data }) => {
@@ -10,7 +9,7 @@ const currentWeather = ({ data }) => {
                     <p className="city">{data.city}</p>
                     <p className="weatherDesc">{data.weather[0].description}</p>
                 </div>
-                <img src={Sunny} alt="weather" className="weatherIcon" />
+                <img src={`icons/${data.weather[0].icon}.png`} alt="weather" className="weatherIcon" />
             </div>
             <div className="bottom">
                 <p className="temperature">{Math.round(data.main.temp)}°C</p>

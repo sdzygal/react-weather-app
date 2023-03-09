@@ -1,0 +1,70 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    margin: 3rem 0 1rem;
+}
+
+.dailyItem {
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 20px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 /30%);
+}
+
+.iconSmall {
+    width: 40px;
+}
+
+.day {
+    color: #ffffff;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.description {
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.min-max {
+    color: #d0cccc;
+}
+
+.dailyDetailsGrid {
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    row-gap: 0;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+}
+
+.dailyDetailsGridItem {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.dailyDetailsGridItem label:first-child {
+        color: #757575;
+}
+
+.dailyDetailsGridItem label:last-child {
+        color: #212121;
+}
